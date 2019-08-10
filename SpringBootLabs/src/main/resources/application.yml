@@ -3,3 +3,4 @@ auther:
   name: hongen
   email: hongenjob@126.com
   address: 北京
+  desc: yml:${auther.name}'s email is ${auther.email}
