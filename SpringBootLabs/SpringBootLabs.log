@@ -1,0 +1,214 @@
+2019-08-11 17:55:51.235  INFO 5824 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 5824 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 17:55:51.237  INFO 5824 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 17:55:52.366  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 17:55:52.389  INFO 5824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 17:55:52.390  INFO 5824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 17:55:52.531  INFO 5824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 17:55:52.531  INFO 5824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1216 ms
+2019-08-11 17:55:52.818  INFO 5824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 17:55:52.993  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 17:55:52.996  INFO 5824 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 2.286 seconds (JVM running for 3.429)
+2019-08-11 17:57:06.714  INFO 5824 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 17:57:06.717  INFO 5824 --- [RMI TCP Connection(9)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 17:57:10.094  INFO 11260 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 11260 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 17:57:10.096  INFO 11260 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 17:57:10.751  INFO 11260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 17:57:10.769  INFO 11260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 17:57:10.769  INFO 11260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 17:57:10.841  INFO 11260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 17:57:10.841  INFO 11260 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 719 ms
+2019-08-11 17:57:11.096  INFO 11260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 17:57:11.223  INFO 11260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 17:57:11.226  INFO 11260 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 1.44 seconds (JVM running for 2.284)
+2019-08-11 18:00:33.043  INFO 5384 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 5384 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 18:00:33.045  INFO 5384 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 18:00:33.698  INFO 5384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 18:00:33.716  INFO 5384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 18:00:33.716  INFO 5384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 18:00:33.793  INFO 5384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 18:00:33.794  INFO 5384 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 722 ms
+2019-08-11 18:00:34.046  INFO 5384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 18:00:34.165 ERROR 5384 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at com.hongen.springboot.SpringBootLabsApplication.main(SpringBootLabsApplication.java:10) [classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_211]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_211]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_211]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_211]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_211]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	... 14 common frames omitted
+
+2019-08-11 18:00:34.169  INFO 5384 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-08-11 18:00:34.176  INFO 5384 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-11 18:00:34.179 ERROR 5384 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-08-11 18:00:34.181  INFO 5384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 20:59:00.391  INFO 11260 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 20:59:00.393  INFO 11260 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 20:59:09.735  INFO 9912 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 9912 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 20:59:09.738  INFO 9912 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 20:59:10.423  INFO 9912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 20:59:10.441  INFO 9912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 20:59:10.442  INFO 9912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 20:59:10.524  INFO 9912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 20:59:10.525  INFO 9912 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 760 ms
+2019-08-11 20:59:10.782  INFO 9912 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 20:59:10.909  INFO 9912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 20:59:10.912  INFO 9912 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 1.494 seconds (JVM running for 2.46)
+2019-08-11 21:02:35.848  INFO 9912 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 21:02:35.852  INFO 9912 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:02:41.362  INFO 7992 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 7992 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 21:02:41.364  INFO 7992 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 21:02:42.159  INFO 7992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 21:02:42.176  INFO 7992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 21:02:42.176  INFO 7992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 21:02:42.274  INFO 7992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 21:02:42.274  INFO 7992 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 881 ms
+2019-08-11 21:02:42.593  INFO 7992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:02:42.748  INFO 7992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 21:02:42.751  INFO 7992 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 1.718 seconds (JVM running for 3.421)
+2019-08-11 21:02:52.229  INFO 7992 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 21:02:52.233  INFO 7992 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:02:59.519  INFO 7868 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 7868 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 21:02:59.522  INFO 7868 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 21:03:00.374  INFO 7868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 21:03:00.394  INFO 7868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 21:03:00.394  INFO 7868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 21:03:00.472  INFO 7868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 21:03:00.472  INFO 7868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 924 ms
+2019-08-11 21:03:00.858  INFO 7868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:03:01.049  INFO 7868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 21:03:01.052  INFO 7868 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 2.024 seconds (JVM running for 3.81)
+2019-08-11 21:03:51.065  INFO 7868 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 21:03:51.070  INFO 7868 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:03:57.762  INFO 4028 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 4028 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 21:03:57.763  INFO 4028 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 21:03:58.573  INFO 4028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 21:03:58.593  INFO 4028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 21:03:58.593  INFO 4028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 21:03:58.667  INFO 4028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 21:03:58.668  INFO 4028 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 878 ms
+2019-08-11 21:03:59.001  INFO 4028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:03:59.133  INFO 4028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 21:03:59.136  INFO 4028 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 1.778 seconds (JVM running for 3.351)
+2019-08-11 21:04:33.656  INFO 4028 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 21:04:33.659  INFO 4028 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:04:40.167  INFO 4048 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 4048 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 21:04:40.169  INFO 4048 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 21:04:40.866  INFO 4048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 21:04:40.883  INFO 4048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 21:04:40.884  INFO 4048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 21:04:40.957  INFO 4048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 21:04:40.958  INFO 4048 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 761 ms
+2019-08-11 21:04:41.363  INFO 4048 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:04:41.495  INFO 4048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 21:04:41.498  INFO 4048 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 1.644 seconds (JVM running for 3.029)
+2019-08-11 21:05:53.739  INFO 10644 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 10644 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 21:05:53.741  INFO 10644 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 21:05:54.509  INFO 10644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 21:05:54.528  INFO 10644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 21:05:54.528  INFO 10644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 21:05:54.602  INFO 10644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 21:05:54.602  INFO 10644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 833 ms
+2019-08-11 21:05:54.910  INFO 10644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:05:55.116 ERROR 10644 --- [main] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227) [tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) [spring-boot-2.1.7.RELEASE.jar:2.1.7.RELEASE]
+	at com.hongen.springboot.SpringBootLabsApplication.main(SpringBootLabsApplication.java:10) [classes/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_211]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_211]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_211]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_211]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_211]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.22.jar:9.0.22]
+	... 14 common frames omitted
+
+2019-08-11 21:05:55.127  INFO 10644 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-08-11 21:05:55.140  INFO 10644 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-11 21:05:55.144 ERROR 10644 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-08-11 21:05:55.146  INFO 10644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:06:01.684  INFO 4048 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 21:06:01.688  INFO 4048 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:06:07.245  INFO 7724 --- [main] c.h.s.SpringBootLabsApplication          : Starting SpringBootLabsApplication on SC-201907301945 with PID 7724 (D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs\target\classes started by Administrator in D:\Repository\gitRepo\SpringBootLabs\SpringBootLabs)
+2019-08-11 21:06:07.247  INFO 7724 --- [main] c.h.s.SpringBootLabsApplication          : The following profiles are active: dev
+2019-08-11 21:06:08.061  INFO 7724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-11 21:06:08.082  INFO 7724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-11 21:06:08.082  INFO 7724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-11 21:06:08.159  INFO 7724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-11 21:06:08.159  INFO 7724 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 884 ms
+2019-08-11 21:06:08.486  INFO 7724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-11 21:06:08.639  INFO 7724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-11 21:06:08.642  INFO 7724 --- [main] c.h.s.SpringBootLabsApplication          : Started SpringBootLabsApplication in 1.789 seconds (JVM running for 3.158)
+2019-08-11 21:06:22.191  INFO 7724 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-11 21:06:22.194  INFO 7724 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
